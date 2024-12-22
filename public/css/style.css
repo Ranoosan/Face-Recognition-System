@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.left-section {
+    background-image: url('https://www.goodinfonet.com/uploads/news/goodinfonet_advantage_being_it_students_1595582824_0.jpg');
+    background-size: cover;
+    width: 50%;
+    padding: 40px;
+    color: whitesmoke;
+}
+
+.left-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.left-section span {
+    color: white;
+}
+
+.left-section p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.right-section {
+    width: 50%;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.input-field label, select {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-field input, option, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
